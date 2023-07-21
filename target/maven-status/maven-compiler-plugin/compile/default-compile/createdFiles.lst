@@ -1,0 +1,4 @@
+pageObjects\testcasesPage.class
+pageObjects\addtobasketPage.class
+pageObjects\dynamicdataPage.class
+pageObjects\registerPage.class

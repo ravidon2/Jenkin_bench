@@ -1,0 +1,8 @@
+testCases\TC_RegisterTest.class
+utilities\ExtentReport.class
+base\BaseClass.class
+testCases\TC_DynamicDataTest.class
+utilities\ExtractDataFromExcel.class
+testCases\TC_AddToBasketTest.class
+testCases\TC_TestCaseTest.class
+utilities\ExtentSetup.class

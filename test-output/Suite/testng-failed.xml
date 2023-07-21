@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="valid"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TC_LoginTest_01">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testCases.TC_LoginTest_01 -->
+      <class name="testCases.TC_RegisterTest_01">
+        <methods>
+          <include name="register"/>
+        </methods>
+      </class> <!-- testCases.TC_RegisterTest_01 -->
+      <class name="testCases.TC_AddToBasket_01">
+        <methods>
+          <include name="addtobasket"/>
+        </methods>
+      </class> <!-- testCases.TC_AddToBasket_01 -->
+      <class name="testCases.TC_DynamicDataTest_01">
+        <methods>
+          <include name="dynamicdata"/>
+        </methods>
+      </class> <!-- testCases.TC_DynamicDataTest_01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

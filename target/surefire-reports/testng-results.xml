@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-21T04:33:10 PDT" name="Surefire suite" finished-at="2023-07-21T04:34:10 PDT" duration-ms="60633">
+    <groups>
+      <group name="valid">
+        <method signature="TC_AddToBasketTest.addtobasket()[pri:0, instance:testCases.TC_AddToBasketTest@14d3bc22]" name="addtobasket" class="testCases.TC_AddToBasketTest"/>
+        <method signature="TC_DynamicDataTest.dynamicdata()[pri:0, instance:testCases.TC_DynamicDataTest@79efed2d]" name="dynamicdata" class="testCases.TC_DynamicDataTest"/>
+        <method signature="TC_RegisterTest.register()[pri:0, instance:testCases.TC_RegisterTest@2928854b]" name="register" class="testCases.TC_RegisterTest"/>
+      </group> <!-- valid -->
+    </groups>
+    <test started-at="2023-07-21T04:33:10 PDT" name="Surefire test" finished-at="2023-07-21T04:34:10 PDT" duration-ms="60633">
+      <class name="testCases.TC_TestCaseTest">
+        <test-method signature="testcase()[pri:0, instance:testCases.TC_TestCaseTest@27ae2fd0]" started-at="2023-07-21T04:33:59 PDT" name="testcase" finished-at="2023-07-21T04:34:10 PDT" duration-ms="11141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+      </class> <!-- testCases.TC_TestCaseTest -->
+      <class name="testCases.TC_AddToBasketTest">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:testCases.TC_AddToBasketTest@14d3bc22]" started-at="2023-07-21T04:33:07 PDT" name="testSetup" finished-at="2023-07-21T04:33:10 PDT" duration-ms="2682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="addtobasket()[pri:0, instance:testCases.TC_AddToBasketTest@14d3bc22]" started-at="2023-07-21T04:33:10 PDT" name="addtobasket" finished-at="2023-07-21T04:33:28 PDT" duration-ms="18448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtobasket -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_AddToBasketTest@14d3bc22]" started-at="2023-07-21T04:34:10 PDT" name="tearDown" finished-at="2023-07-21T04:34:12 PDT" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_AddToBasketTest -->
+      <class name="testCases.TC_RegisterTest">
+        <test-method signature="register()[pri:0, instance:testCases.TC_RegisterTest@2928854b]" started-at="2023-07-21T04:33:53 PDT" name="register" finished-at="2023-07-21T04:33:59 PDT" duration-ms="5995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+      </class> <!-- testCases.TC_RegisterTest -->
+      <class name="testCases.TC_DynamicDataTest">
+        <test-method signature="dynamicdata()[pri:0, instance:testCases.TC_DynamicDataTest@79efed2d]" started-at="2023-07-21T04:33:28 PDT" name="dynamicdata" finished-at="2023-07-21T04:33:53 PDT" duration-ms="25012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicdata -->
+      </class> <!-- testCases.TC_DynamicDataTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
